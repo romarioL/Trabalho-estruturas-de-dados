@@ -1,0 +1,16 @@
+{
+    "name": "romis/data-structure-dengue",
+    "authors": [
+        {
+            "name": "Romario Sousa",
+            "email": "estreladamanha585@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+    	"psr-4": {
+    		"Src\\" : "src/",
+            "App\\" : "app/"
+    	}
+    }
+}
