@@ -58,13 +58,17 @@ $filalocais->enqueue($Relato);
 print_r($filalocais->dequeue());
 
 
-//print_r($infectado);
+print_r($infectado);
 
 print_r($filaSuspeitos->dequeue(true));
 print_r($filaSuspeitos->dequeue(false));
+print_r($filaSuspeitos->dequeue(true));
+print_r($filaSuspeitos->dequeue(false));
+print_r($filaSuspeitos->dequeue(true));
+print_r($filaSuspeitos->dequeue(false));
+print_r($filaSuspeitos->dequeue(true));
+print_r($filaSuspeitos->dequeue(false));
 
+print_r($filaSuspeitos);
 
-
-//print_r($filaSuspeitos);
-
-//print_r($Relato);
+print_r($Relato);

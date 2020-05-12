@@ -2,7 +2,6 @@
 
 namespace App;
 use Src\Relato;
-use Src\Infectado;
 
 class FilaLocais
 {
@@ -15,7 +14,10 @@ class FilaLocais
 
 	public function dequeue()
 	{
-		
+		if(empty($this->fila)){
+              return "Fila  vazia";
+		}
+
 		return array_shift($this->fila);
 	}
 }

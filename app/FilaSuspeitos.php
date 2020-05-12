@@ -15,6 +15,10 @@ class FilaSuspeitos
 
 	public function dequeue(bool $infectado)
 	{
+		if(empty($this->fila)){
+              return "Fila vazia";
+		}
+
 		if($infectado){
 			 $suspeito = array_shift($this->fila);
 			 $Infectado = new Infectado(
